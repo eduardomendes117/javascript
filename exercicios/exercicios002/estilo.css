@@ -1,0 +1,79 @@
+body {
+    background: rgb(107, 107, 241);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+#button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border-color: rgb(123, 123, 123);
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+#button:hover {
+    background-color: rgb(0, 255, 170);
+}
+
+#fano {
+    border-radius: 10px;
+    border: 1px solid #000000;
+    width: auto;
+    padding: 3px;
+    box-shadow: 1px 1px 1px;
+}
+
+section {
+    background: white;
+    border-radius: 10pt;
+    padding: 15pt;
+    width: 500px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    box-shadow: 5pt 5px 10px rgba(0, 0, 0, 0.158);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.buttons input[type="radio"] {
+    display: none;
+  }
+  
+.buttons label {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.buttons label:hover {
+    background-color: #f0f0f0;
+}
+  
+.buttons label i {
+    margin-right: 10px;
+}
+  
+/* Estilo para o botão selecionado */
+.buttons input[type="radio"]:checked + label {
+    background-color: #007bff;
+    color: #fff;
+}
+  
