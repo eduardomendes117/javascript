@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor R$ → US$</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        button {
+            padding: 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conversor R$ → US$</h1>
+    <button onclick="converter()">Converter</button>
+    <p id="res">Clique no botão acima para iniciar.</p>
+
+    <script>
+        function converter() {
+            let res = window.document.getElementById("res")
+            let dolar = parseFloat(window.prompt(`Antes de mais nada. Quanto está a cotação do dólar agora?`));
+            let real = parseFloat(window.prompt(`Quantos R$ você tem na carteira?)`));
+
+            res.innerHTML = `<h2>O valor de R$ ${real}, corresponde a...</h2> <br>
+            ${(real / dolar).toFixed(2)} US$`
+        }
+    </script>
+</body>
+</html>
