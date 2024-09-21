@@ -1,4 +1,4 @@
-# Curso de JavaScript - Gustavo Guanabara
+# Curso de JavaScript - Curso em Vídeo
 
 Este repositório contém os desafios e exercícios realizados durante o curso de JavaScript oferecido por Gustavo Guanabara no canal Curso em Vídeo.
 
